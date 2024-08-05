@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:resto_app/model/detail_restaurant.dart';
-import 'package:resto_app/model/restaurant.dart';
-import 'package:resto_app/provider/restaurant_provider.dart';
 import 'package:resto_app/screen/detail_screen.dart';
 import 'package:resto_app/screen/home_screen.dart';
 import 'package:resto_app/screen/search_screen.dart';
 import 'package:resto_app/screen/splash_screen.dart';
-import 'package:resto_app/service/api_service.dart';
 
 void main() {
   runApp(const MyApp());

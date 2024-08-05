@@ -61,8 +61,7 @@ class DetailScreen extends StatelessWidget {
                                       ),
                                       Text(
                                         state.result.restaurant.rating
-                                                .toString() ??
-                                            '',
+                                            .toString(),
                                         style: const TextStyle(
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white),

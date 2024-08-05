@@ -36,7 +36,7 @@ class RestaurantProvider extends ChangeNotifier {
         notifyListeners();
         return _restaurantResult = response;
       }
-    } on ClientException catch (e) {
+    } on ClientException {
       _state = ResultState.error;
       _message = "terjadi Kesalahan, Periksa Koneksi Anda";
       notifyListeners();
